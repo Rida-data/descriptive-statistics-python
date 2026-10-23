@@ -2,7 +2,7 @@
 # Descriptive Statistics with Python
 # My first statistics project
 
-from statistics import mode, median, variance
+from statistics import mode, median, variance, stdev
 
 numbers = [10, 20, 20, 30, 40]
 
@@ -13,6 +13,7 @@ middle = median(numbers)
 most_common = mode(numbers)
 data_range = max(numbers) - min(numbers)
 data_variance = variance(numbers)
+data_stdev = stdev(numbers)
 
 # Display the results
 print("Numbers:", numbers)
@@ -21,3 +22,4 @@ print("Median:", middle)
 print("Mode:", most_common)
 print("Range:", data_range)
 print("Variance:", data_variance)
+print("Standard Deviation:", data_stdev)
