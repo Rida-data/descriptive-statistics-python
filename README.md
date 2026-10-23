@@ -7,6 +7,7 @@ This is my first Python project as a BSc Statistics and Mathematics student. It 
 - Calculate the mean, median, and mode.
 - Practice working with lists in Python.
 - Understand how Python can support statistical analysis.
+- Calculate the range of a dataset.
 
 ## Dataset
 The example dataset is:
@@ -20,6 +21,7 @@ The example dataset is:
 | Mean | 24.0 |
 | Median | 20 |
 | Mode | 20 |
+| Range | 30 |
 
 ## Tools Used
 - Python 3.13
@@ -43,6 +45,7 @@ Mode: 20
 - Calculating descriptive statistics.
 - Using Python's built-in `sum()` and `len()` functions.
 - Importing the `mode()` function from the `statistics` module.
+- Using `max()` and `min()` to calculate the range.
 
 ## Project Status
 Completed — first version.
