@@ -9,6 +9,7 @@ This is my first Python project as a BSc Statistics and Mathematics student. It 
 - Understand how Python can support statistical analysis.
 - Calculate the range of a dataset.
 - Calculate sample variance.
+- Calculate sample standard deviation.
 
 ## Dataset
 The example dataset is:
@@ -24,6 +25,7 @@ The example dataset is:
 | Mode | 20 |
 | Range | 30 |
 | Sample Variance | 130.0 |
+| Sample Standard Deviation | 11.4018 |
 
 ## Tools Used
 - Python 3.13
@@ -49,6 +51,7 @@ Mode: 20
 - Importing the `mode()` function from the `statistics` module.
 - Using `max()` and `min()` to calculate the range.
 - Using `statistics.variance()` to calculate sample variance.
+- Using `statistics.stdev()` to calculate sample standard deviation.
 
 ## Project Status
 Completed — first version.
