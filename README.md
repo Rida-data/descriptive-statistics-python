@@ -8,6 +8,7 @@ This is my first Python project as a BSc Statistics and Mathematics student. It 
 - Practice working with lists in Python.
 - Understand how Python can support statistical analysis.
 - Calculate the range of a dataset.
+- Calculate sample variance.
 
 ## Dataset
 The example dataset is:
@@ -22,6 +23,7 @@ The example dataset is:
 | Median | 20 |
 | Mode | 20 |
 | Range | 30 |
+| Sample Variance | 130.0 |
 
 ## Tools Used
 - Python 3.13
@@ -46,6 +48,7 @@ Mode: 20
 - Using Python's built-in `sum()` and `len()` functions.
 - Importing the `mode()` function from the `statistics` module.
 - Using `max()` and `min()` to calculate the range.
+- Using `statistics.variance()` to calculate sample variance.
 
 ## Project Status
 Completed — first version.
