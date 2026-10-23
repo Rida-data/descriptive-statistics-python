@@ -11,9 +11,11 @@ average = sum(numbers) / len(numbers)
 from statistics import median
 middle = median(numbers)
 most_common = mode(numbers)
+data_range = max(numbers) - min(numbers)
 
 # Display the results
 print("Numbers:", numbers)
 print("Mean:", average)
 print("Median:", middle)
 print("Mode:", most_common)
+print("Range:", data_range)
